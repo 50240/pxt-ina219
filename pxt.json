@@ -1,27 +1,14 @@
 {
-    "name": "pxt-ina219",
-    "version": "0.0.0",
-    "description": "",
-    "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
-    },
-    "files": [
-        "README.md",
-        "main.blocks",
-        "main.ts"
-    ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true,
-    "targetVersions": {
-        "target": "7.0.61",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+  "name": "ina219",
+  "version": "0.0.1",
+  "description": "INA219 Power Sensor",
+  "dependencies": {},
+  "files": [
+    "main.ts",
+    "shims.d.ts"
+  ],
+  "targetVersions": {
+    "microbit": "0.14.5",
+    "runtime": "0.5.29"
+  }
 }
